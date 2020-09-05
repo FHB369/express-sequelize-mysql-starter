@@ -1,0 +1,9 @@
+{
+  "server": {
+    "port": 8000,
+    "pageSize": 100,
+    "logger": {
+      "format": "tiny"
+    }
+  }
+}
