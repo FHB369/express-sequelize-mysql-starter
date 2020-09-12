@@ -16,7 +16,7 @@ A basic starter template for starting your next ExpressJS project with MySQL & S
 2. Run `yarn install` on terminal/CMD
 3. Then run `yarn global add sequelize-cli nodemon` on terminal/CMD
 4. Create a file named `.env` in the root directory & copy the texts from `.env.example`
-5. Create a MySql DB & change the value of `database` in `/configs/dbConfig.json`
+5. Create a MySql DB & change the value of _database_ in `/configs/dbConfig.json`
 6. Then run migrations. The commands for migration & creating model are listed below in **DB Commands** section
 7. Go back to root directory and run `yarn start`
 8. Now your backend will be running on [localhost:8000](http://localhost:8000)
@@ -29,4 +29,11 @@ A basic starter template for starting your next ExpressJS project with MySQL & S
 All other **sequelize** commands are available here [Sequelize Documentation](https://sequelize.org/master/manual/model-basics.html)
 
 **Running on Docker**
-The `Dockerfile` is also included. You need to just build the image using `docker build -t express-sequelize-mysql-starter` and run using `docker run express-sequelize-mysql-starter`.
+
+The _Dockerfile_ is also included. You need to just build the image using
+
+`docker build -t express-sequelize-mysql-starter`
+
+and run using
+
+`docker run express-sequelize-mysql-starter`.
