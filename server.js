@@ -40,7 +40,7 @@ module.exports.init = function (configs) {
   DB.checkAuthentication();
   // setup routes
   app.get("/", (req, res) => {
-    res.json("Welcome to the EMS Server");
+    res.json("Welcome to the Express-Sequelize-MySQL-Starter");
   });
 
   require("./routes")(app);
